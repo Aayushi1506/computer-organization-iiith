@@ -161,5 +161,50 @@
   table,th{
   border: black 2px solid;
   }
+  #Tab2 {
+  width: 120%;
 
-    
+ }
+
+  #one {
+  width: 700px ;
+  float: left;
+  height : 80%;
+  padding-left: 30px;
+ }
+  #two {
+  width: 700px ;
+  float:left;
+  height : 80%;
+ }
+  #table2{
+  margin-left : 20px;
+  height:650px;
+  width:700px;
+ }
+  #table2,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-top: 4px;
+  padding-bottom: 4px;
+ }
+ #table2
+ {
+ th{
+   padding: 6px;
+  }
+ }
+ #ul2 {
+ list-style: none;
+ font-size: 18px;
+ font-weight:600;
+}
+ #ul2 li::before {
+ content: "\2022";
+ color:pink;
+ display:inline-block;
+ font-size: 40px;
+ width: 0.5em;
+ margin-left: -1em;
+
+}
